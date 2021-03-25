@@ -1,0 +1,15 @@
+{
+  "build_url": "http:///project/webnn-native/nightly/",
+  "target_commitId": "latest",
+  "target_backend": ["null", "openvino"],
+  "test_device": {
+    "name": "",
+    "os": "linux",
+    "cpu": "x64"
+  },
+  "report_server": {
+    "user_host": "",
+    "dir": "/home/webnn/project/nightly_reports"
+  },
+  "log_level": "debug"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nightly-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "node ./src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "*",
+    "emailjs": "^3.4.0",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "extract-zip": "^2.0.1",
+    "fast-csv": "^4.3.6",
+    "fs-extra": "^9.1.0",
+    "winston": "^3.3.3"
+  }
+}
