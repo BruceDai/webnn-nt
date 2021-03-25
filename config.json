@@ -1,0 +1,20 @@
+{
+  "build_url": "",
+  "target_os": "linux",
+  "target_cpu": "x64",
+  "target_commitId": "latest",
+  "target_backend": ["null", "openvino"],
+  "openvino_setup": "/opt/intel/openvino_2021/bin/setupvars.sh",
+  "archive_server": {
+    "host": "",
+    "dir": "",
+    "ssh_user": ""
+  },
+  "email_service": {
+    "user": "",
+    "host": "",
+    "from": "",
+    "to": ""
+  },
+  "log_level": "debug"
+}
